@@ -1,0 +1,48 @@
+header{background:url("img/online.jpg")no-repeat center center;background-size: cover; }
+header .mainNav{margin-bottom:0;position: relative;}
+header .mainNav .container{width: 100%; padding-left:20px; padding-right: 20px;}
+header .mainNav .logo{margin-left:15px; margin-top:10px;}
+header .dao{position: absolute; right:30px; top:40px; z-index:100}
+header .dao i{font-size:30px;}
+header .mainMenuNav{margin-top:35px; margin-bottom:350px;}
+header .mainMenuNav li{margin-right: 20px; height:28px; }
+header .mainMenuNav li a{display: block; font-weight:bolder;background: rgba(0,0,0,0.2); transition: all .5s; height:28px; text-align:center;line-height: 28px; margin:0; padding: 0;font-size:14px; color:#fff;}
+header .mainMenuNav li:nth-of-type(1){width:140px;}
+header .mainMenuNav li:nth-of-type(2){width:120px;}
+header .mainMenuNav li:nth-of-type(3){width:110px;}
+header .mainMenuNav li:nth-of-type(4){width:90px;}
+header .mainMenuNav li:nth-of-type(5){width:80px;}
+header .mainMenuNav li:nth-of-type(6){width:100px;}
+header .mainMenuNav li a:hover{background:#F9EA48; color: #54BDFF;}
+@media screen and (max-width:768px) {
+    header .mainNav .container{padding-left:10px; padding-right: 10px; padding-bottom:300px;}
+    header .hang{position: fixed; right:30px; top:40px; z-index:10000;}
+    header .hang i{font-size:30px;}
+    header .NPEB{z-index:1;}
+    .mainMenuNav{width:110%;z-index:1000 !important; height:110% !important;  position: fixed !important;margin-top:0 !important; top:0 !important; right:0; background:#fff !important;padding-top: 40px !important;}
+    .mainMenuNav li{width:100% !important; height:40px !important;}
+    .mainMenuNav li a{ display: block; font-size:18px !important; background: #fff !important;color: #22aacc !important; font-weight: normal!important; text-align: left!important; padding-left:90px !important; width:100% !important;height:40px!important; line-height:40px!important; }
+    .banner .container{padding:0 50px;}
+}
+/*.banner*/
+.banner{margin-bottom:90px;}
+.banner h2{margin:40px 0 20px 0;color: #71c8f7;  font-size:36px;font-weight: bold;}
+.banner h2 span{font-size: 14px; color: #000;font-weight:normal; line-height:40px; }
+.banner h2 i{margin-right: 15px; font-size:34px;line-height:40px; color:#FFAE00;}
+.banner p{font-size: 14px;margin-bottom: 20px; line-height: 22px; color: #000;}
+.banner p{font-size: 14px;margin-bottom: 20px; line-height: 22px; color: #000;}
+.banner h3{margin:40px 0 4px 0;font-size: 24px;  font-weight: bold;  color: #71c8f7; line-height: 38px;}
+.banner h3 span{    color: #ffae00; font-weight: bold; font-size: 28px;}
+.banner .ueha{padding-left:20px;}
+.banner .ueha p{line-height:35px; margin-bottom: 0}
+.banner .ueha p i{font-size:30px; margin-right:20px; line-height:35px;color: #71c8f7;}
+.banner .ueha p span{color: #71c8f7;}
+.banner form input[type="email"]{margin-bottom: 19px; width:90%; padding: 8px 6px; border-radius:10px; color: #000;border: 1px solid #9e9e9e; height:36px; box-shadow:none }
+.banner form input[type="submit"]{padding: 12px 15px;background: #f9ea48; margin-bottom: 28px;  color:#36b2f5; border-radius: 2px; font-weight: bolder}
+.banner form input[type="submit"]:hover{background: #36b2f5;  color:#f9ea48; }
+/*footer*/
+footer{background:#54bdff; line-height:78px; position: relative; bottom: 0;}
+footer .container{width: 100%;}
+footer .logo>a:nth-of-type(1){margin-right:80px;}
+footer .logo .faq a{display: inline-block; font-size: 12px; color: #fff; font-weight: bolder; margin-right: 25px;}
+footer .logo .faq a:nth-last-child(1){margin-right: 0;}

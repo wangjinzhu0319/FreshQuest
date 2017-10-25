@@ -1,0 +1,84 @@
+header{background:url("../img/bg.jpg")no-repeat center top;background-position: 50% 70%;background-size: cover; }
+header .mainNav{margin-bottom: 30px;position: relative;}
+header .dao{position: absolute; right:30px; top:40px; z-index:100}
+header .dao i{font-size:30px;}
+header .mainNav .container{padding: 0;}
+header .mainMenuNav{margin-top:35px; margin-bottom: 185px;}
+header .mainMenuNav li{margin-right: 20px; height:28px; }
+header .mainMenuNav li a{display: block; font-weight:bolder;background: rgba(0,0,0,0.2); transition: all .5s; height:28px; text-align:center;line-height: 28px; margin:0; padding: 0;font-size:14px; color:#fff;}
+header .mainMenuNav li:nth-of-type(1){width:140px;}
+header .mainMenuNav li:nth-of-type(2){width:120px;}
+header .mainMenuNav li:nth-of-type(3){width:110px;}
+header .mainMenuNav li:nth-of-type(4){width:90px;}
+header .mainMenuNav li:nth-of-type(5){width:80px;}
+header .mainMenuNav li:nth-of-type(6){width:100px;}
+header .mainMenuNav li a:hover{background:#F9EA48; color: #54BDFF;}
+header h2{line-height:30px; font-size: 28px; margin-bottom: 40px; color:#fff;text-shadow: 0 0 14px rgba(0, 0, 0, 1); font-weight:bolder}
+header h2 span{color: #f3ea4d}
+
+header .NPEB a{display: block;width: 140px; height: 44px; margin: 0 auto 125px auto; background: #c63786; color: #fff; font-size: 12px;font-weight: bolder; line-height:44px;}
+header .NPEB a:hover{background: #13699E;}
+@media screen and (max-width:768px) {
+    header .hang{position: fixed; right:30px; top:40px; z-index:10000;}
+    header .hang i{font-size:30px;}
+    header .mainNav{padding-top:50px;}
+    header .NPEB{z-index:1;}
+    .mainMenuNav{width:110%;z-index:1000 !important; height:110% !important;  position: fixed !important;margin-top:0 !important; top:0 !important; right:0; background:#fff !important;padding-top: 40px !important;}
+    .mainMenuNav li{width:100% !important; height:40px !important; }
+    .mainMenuNav li a{ display: block; font-size: 18px !important; background: #fff !important;color: #22aacc !important; font-weight: normal!important; text-align: left!important; padding-left:90px !important; width:100% !important;height:50px!important; line-height:40px!important; }
+}
+/*NPON*/
+.NPON{margin-bottom: 60px;}
+.NPON .container{padding: 0; width: 100%}
+.NPON h2{font-size:22px; color: #38b1f8; font-weight: bolder; margin-top:60px;margin-bottom: 60px;}
+.NPON figure{width:17%; margin-right:3%; float: left; height:350px;}
+.NPON figure:nth-last-child(1){margin-right: 0;}
+.NPON figure h3{color: #36b2f5; font-weight: bolder}
+.NPON figure p{color: #525050}
+
+/*kbect*/
+.kbect .container{padding:0; width:100%;}
+.kbect .nen{padding:0;}
+.kbect .moba{text-decoration: none;}
+.kbect .moba .mofang{position:relative; padding:15px 30px 15px 36px; height: 340px; width:100%; overflow: hidden}
+.kbect .moba .mofang:after{content:'';  width:100%; height:340px; position: absolute; top:0; left:0;background:rgba(0,0,0,0.3); z-index: -900; }
+.kbect .moba .mofang:hover img{transform:scale(1.3)}
+.kbect .moba .mofang img{position: absolute; left:-20px; top:-20px; z-index: -1000;transition:all .3s; transform:scale(1.2)}
+.kbect .moba .mofang h2{font-weight: normal; font-size:16px; height:80px; color:#EEEEEE; margin-top:10px;margin-bottom: 0; }
+.kbect .moba .mofang h2 i:nth-of-type(1){display: inline-block;padding-right: 13px; font-size:36px;}
+.kbect .moba .mofang h2 span .fa{ font-size:26px;display: inline-block; margin-left: 5px;}
+.kbect .moba .mofang h2 span:nth-of-type(1){font-size: 12px; font-weight: normal; line-height:40px; margin-bottom:20px; }
+.kbect .moba .mofang h2 span:nth-of-type(2){font-size: 22px; font-weight: bolder;line-height:40px;  }
+.kbect .moba .mofang h3{margin-top:0; line-height: 26px; height: 52px; font-size: 16px; color: #fff; font-weight: bolder}
+.kbect .moba .mofang p{font-size:12px; color: #fff; line-height: 22px; margin-bottom: 15px;}
+.kbect .moba .mofang p:nth-of-type(1){height: 66px;}
+.kbect .moba .mofang p:nth-last-child(1){margin-bottom: 4px;}
+.kbect .moba .mofang p span,.kbect .moba .mofang p i{color:#ffec4d}
+.kbect .moba .mofang p i{margin-right: 6px;}
+.kbect h4{padding-left:20px;  background: #71c7f6; height:72px;font-weight: bolder;margin: 0; line-height:70px; font-size: 18px; color: #edeee6; width:100%;}
+.kbect h4 img{display: inline-block}
+
+/*KAK*/
+.KAK{background: url("../img/bg2.jpg") repeat-y; margin-bottom:0!important;}
+.KAK h2{margin:10px auto 66px; font-weight: bolder; font-size: 24px; color: #fff;}
+.KAK .mbi figcaption h3{margin-top:11px;line-height: 46px; font-size: 16px; color: #f0ff01; font-weight: bolder}
+.KAK .mbi figcaption p{font-size:12px; color: #fff; line-height: 20px;}
+/*footer*/
+footer{background:#54bdff; line-height:78px;}
+footer .container{width: 100%;}
+footer .logo>a:nth-of-type(1){margin-right:80px;}
+footer .logo .faq a{display: inline-block; font-size: 12px; color: #fff; font-weight: bolder; margin-right: 25px;}
+footer .logo .faq a:nth-last-child(1){margin-right: 0;}
+@media screen and (max-width:767px) and (min-width:600px) {
+    .NPON figure{width:49%; margin-right:2%;}
+    .NPON figure:nth-of-type(even){margin-right: 0}
+    .kbect .nen{min-height:0 !important;}
+    .kbect .moba .mofang{width:49%; float: left}
+}
+@media screen and (max-width:600px){
+    .NPON figure{width:100%; height: 250px;}
+    .kbect .moba .mofang{width:100%;}
+    .kbect .moba .mofang img{width:100%;}
+}
+
+

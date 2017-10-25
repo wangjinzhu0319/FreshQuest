@@ -1,0 +1,87 @@
+header{background:url("../img/bg2.jpg")no-repeat center top;background-position: 50% 70%;background-size: cover; }
+header .mainNav{margin-bottom:0;position: relative;}
+header .mainNav .container{width: 100%; padding-left:20px; padding-right: 20px;}
+header .mainNav .logo{margin-left:15px; margin-top:10px;}
+header .dao{position: absolute; right:30px; top:40px; z-index:100}
+header .dao i{font-size:30px;}
+header .mainMenuNav{margin-top:35px; margin-bottom: 80px;}
+header .mainMenuNav li{margin-right: 20px; height:28px; }
+header .mainMenuNav li a{display: block; font-weight:bolder;background: rgba(0,0,0,0.2); transition: all .5s; height:28px; text-align:center;line-height: 28px; margin:0; padding: 0;font-size:14px; color:#fff;}
+header .mainMenuNav li:nth-of-type(1){width:140px;}
+header .mainMenuNav li:nth-of-type(2){width:120px;}
+header .mainMenuNav li:nth-of-type(3){width:110px;}
+header .mainMenuNav li:nth-of-type(4){width:90px;}
+header .mainMenuNav li:nth-of-type(5){width:80px;}
+header .mainMenuNav li:nth-of-type(6){width:100px;}
+header .mainMenuNav li a:hover{background:#F9EA48; color: #54BDFF;}
+@media screen and (max-width:768px) {
+    header .mainNav .container{padding-left:10px; padding-right: 10px; padding-bottom:40px;}
+    header .hang{position: fixed; right:30px; top:40px; z-index:10000;}
+    header .hang i{font-size:30px;}
+    header .NPEB{z-index:1;}
+    .mainMenuNav{width:110%;z-index:1000 !important; height:110% !important;  position: fixed !important;margin-top:0 !important; top:0 !important; right:0; background:#fff !important;padding-top: 40px !important;}
+    .mainMenuNav li{width:100% !important; height:40px !important;}
+    .mainMenuNav li a{ display: block; font-size:18px !important; background: #fff !important;color: #22aacc !important; font-weight: normal!important; text-align: left!important; padding-left:90px !important; width:100% !important;height:40px!important; line-height:40px!important; }
+    .banner .container{padding-bottom:50px !important;}
+}
+/*banner*/
+.banner .noaa h2{margin-top: 30px; margin-bottom: 20px;}
+.banner .noaa p .img1,.banner .noaa p .img3{display: block; margin:0 auto; padding-top: 10px;}
+.banner .noaa h3{font-size: 18px; font-weight: bolder; margin-top: 30px; margin-bottom:40px; color: #000;}
+.banner .noaa strong{color: #009900; font-size: 18px; margin-bottom: 20px; display: block}
+.banner .noaa p{font-size: 18px; line-height: 28px;margin-bottom:60px; }
+.banner .noaa p .img2{width:21px; padding-left: 3px; display: inline-block}
+.banner .noaa h4{font-size: 24px; color: #000; font-weight: bolder; margin-bottom:60px;}
+.banner .noaa h4 s{font-size: 30px;text-decoration: red solid line-through;}
+.banner .noaa h5{font-size: 32px; color: red; font-weight: bolder; margin-bottom: 0;}
+.banner .noaa p i{font-size: 14px; color: #000;}
+.banner .noaa p i strong{display: inline-block; font-size: 16px; color: #000;}
+.banner .noaa p.ceptn{font-size: 22px; margin-bottom:0;}
+.banner .noaa p.ceptn strong{display: inline-block; color: #000; font-size: 24px;}
+.banner .noaa p.ceptn strong.red{color:red;}
+.banner .noaa p a{background:#009900; color: #fff; font-size: 14px; font-weight: normal}
+.banner .noaa p a:hover{background:#2DC62D}
+.banner .noaa h6{font-size: 32px;}
+.banner .noaa h6 strong{display: inline-block; font-size: 32px; color: #000; margin-left: 5px; margin-right: 5px;    font-family: 'Open Sans', sans-serif;}
+.banner .noaa h6 strong.red{color: red;}
+.banner .noaa p.kyn{margin-bottom: 10px;}
+.banner .noaa p.cep{margin-bottom:40px;}
+.banner .noaa p.PS{font-size: 14px; margin-bottom:20px;}
+
+/*kbect*/
+.kbect .container{padding:0; width:100%;}
+.kbect .nen{padding:0;}
+.kbect .moba{text-decoration: none;}
+.kbect .moba .mofang{position:relative; padding:15px 30px 15px 36px; height: 340px; width:100%; overflow: hidden}
+.kbect .moba .mofang:after{content:'';  width:100%; height:340px; position: absolute; top:0; left:0;background:rgba(0,0,0,0.3); z-index: -900; }
+.kbect .moba .mofang:hover img{transform:scale(1.3)}
+.kbect .moba .mofang img{position: absolute; left:-20px; top:-20px; z-index: -1000;transition:all .3s; transform:scale(1.2)}
+.kbect .moba .mofang h2{font-weight: normal; font-size:16px; height:80px; color:#EEEEEE; margin-top:10px;margin-bottom: 0; }
+.kbect .moba .mofang h2 i:nth-of-type(1){display: inline-block;padding-right: 13px; font-size:36px;}
+.kbect .moba .mofang h2 span .fa{ font-size:26px;display: inline-block; margin-left: 5px;}
+.kbect .moba .mofang h2 span:nth-of-type(1){font-size: 12px; font-weight: normal; line-height:40px; margin-bottom:20px; }
+.kbect .moba .mofang h2 span:nth-of-type(2){font-size: 22px; font-weight: bolder;line-height:40px;  }
+.kbect .moba .mofang h3{margin-top:0; line-height: 26px; height: 52px; font-size: 16px; color: #fff; font-weight: bolder}
+.kbect .moba .mofang p{font-size:12px; color: #fff; line-height: 22px; margin-bottom: 15px;}
+.kbect .moba .mofang p:nth-of-type(1){height: 66px;}
+.kbect .moba .mofang p:nth-last-child(1){margin-bottom: 4px;}
+.kbect .moba .mofang p span,.kbect .moba .mofang p i{color:#ffec4d}
+.kbect .moba .mofang p i{margin-right: 6px;}
+.kbect h4{padding-left:20px;  background: #71c7f6; height:72px;font-weight: bolder;margin: 0; line-height:70px; font-size: 18px; color: #edeee6; width:100%;}
+.kbect h4 img{display: inline-block}
+@media screen and (max-width:767px) and (min-width:600px) {
+    .kbect .nen{min-height:0 !important;}
+    .kbect .moba .mofang{width:49%; float: left}
+}
+@media screen and (max-width:600px){
+    .kbect .moba .mofang{width:100%;}
+    .kbect .moba .mofang img{width:100%;}
+}
+/*footer*/
+footer{background:#54bdff; line-height:78px; position: relative; bottom: 0;}
+footer .container{width: 100%;}
+footer .logo>a:nth-of-type(1){margin-right:80px;}
+footer .logo .faq a{display: inline-block; font-size: 12px; color: #fff; font-weight: bolder; margin-right: 25px;}
+footer .logo .faq a:nth-last-child(1){margin-right: 0;}
+
+

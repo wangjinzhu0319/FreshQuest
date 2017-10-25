@@ -1,0 +1,106 @@
+header{background:url("../img/bg2.jpg")no-repeat center top;background-position: 50% 70%;background-size: cover; }
+header .mainNav{margin-bottom:0;position: relative;}
+header .mainNav .container{width: 100%; padding-left:20px; padding-right: 20px;}
+header .mainNav .logo{margin-left:15px; margin-top:10px;}
+header .dao{position: absolute; right:30px; top:40px; z-index:100}
+header .dao i{font-size:30px;}
+header .mainMenuNav{margin-top:35px; margin-bottom:100px;}
+header .mainMenuNav li{margin-right: 20px; height:28px; }
+header .mainMenuNav li a{display: block; font-weight:bolder;background: rgba(0,0,0,0.2); transition: all .5s; height:28px; text-align:center;line-height: 28px; margin:0; padding: 0;font-size:14px; color:#fff;}
+header .mainMenuNav li:nth-of-type(1){width:140px;}
+header .mainMenuNav li:nth-of-type(2){width:120px;}
+header .mainMenuNav li:nth-of-type(3){width:110px;}
+header .mainMenuNav li:nth-of-type(4){width:90px;}
+header .mainMenuNav li:nth-of-type(5){width:80px;}
+header .mainMenuNav li:nth-of-type(6){width:100px;}
+header .mainMenuNav li a:hover{background:#F9EA48; color: #54BDFF;}
+
+/*banner*/
+.banner .container{width:100%; padding:0;}
+  /*.CAE*/
+.banner .CAE{width:100%; background: url("img/bg-1.jpg") no-repeat center center ;height:100vh;background-position-x: 20%;background-size: cover;}
+.banner .CAE h2{color: #9c609f; font-size: 36px; margin-top:150px;}
+.banner p{color: #8a868e;font-size: 18px;}
+.banner .CAE .caen{padding-right:130px;}
+  /*nepc*/
+.banner h3{padding: 10px 11px; line-height: 34px; width:auto;display: inline-block; font-family: 'Bebas', sans-serif; font-size:22px; font-weight: bolder;margin-top:120px;}
+.banner .nepc h3{background:url("img/pink_title.png") no-repeat;background-size: 100% 100%; color: #fff;}
+.banner .pArr{padding:0 14%}
+.banner .pArr p{color:#000;}
+/*npnr*/
+.banner .npnr{background:#EC457D;}
+.banner .npnr figcaption{width: 45%; }
+.banner .npnr h3{background:url("img/white_title.png") no-repeat;background-size: 100% 100%;  color: #EC457D}
+.banner .npnr .bg{height:360px; width: 55%; background: url("img/block-3.jpg") no-repeat 70% center; background-size: cover;}
+.banner .npnr p{color:#ffffff;}
+/*yhac*/
+.banner .yhac{height: 100%;}
+.banner .yhac h3{background:url("img/pink_title_small.png") no-repeat 50%; background-size:cover;  color: #ffffff}
+/*takoe*/
+.banner .takoe{background:#EC457D;}
+.banner .takoe h3{background:url("img/white_title_big.png") no-repeat; background-size:100% 100%; margin-top:20px; color:#EC457D }
+.banner .takoe .num{ height:160px;  color: #ffffff; padding:0 10%;}
+.banner .takoe .num .kong{width:45%; float: left;height: 1px}
+.banner .takoe .num .circle{display: inline-block; position: relative;  border: 5px solid white;  border-radius: 36px;  width: 72px; z-index:10000;  background-color: #ec457d;  height: 72px;  font-size: 40px;  line-height: 1.5; padding: 0 20px;}
+.banner .takoe .num .circle::after{content: ''; display: block; position:absolute; left:45%; bottom:-114px; width:5px; height:110px; background: #fff; z-index: -10000}
+.banner .takoe .num .text{width: 45%; float:right;}
+.banner .takoe .num p{ font-size: 18px; color: #fff; }
+.banner .takoe .num7 .circle::after{display: none;}
+/*bawe*/
+.banner .bawe{ background:url("img/5-bg.jpg")no-repeat left; background-size: cover; color: #ffffff;}
+/*.banner .bawe .cton{padding-left:100px;}*/
+.banner .bawe .cton h4{margin:20px 0 10px 0; font-size:24px;}
+.banner .bawe .cton h5{margin:20px 0 10px 0; font-size: 30px;}
+.banner .bawe .cton h5 del{color: red;}
+.banner .bawe .cton h5 small del span{color: #ffffff; font-size:20px;}
+.banner .bawe .cton a{padding:15px 60px; color: #fff; font-size: 24px; margin-bottom: 30px; background:#CF226F; border:1px solid #CF226F; border-radius:0}
+.banner .bawe .cton a:hover{border: 1px solid #fff;}
+
+@media screen and (max-width:1200px){
+    .banner .CAE h2{ margin-top:20px;}
+}
+@media screen and (max-width:991px){
+    .mainMenuNav{margin-bottom: 20px !important; margin-top: 10px!important;}
+    .banner .CAE{background: none; height:100vh;}
+    .banner .CAE .bnaa{padding-left:30px;}
+    .banner .CAE2{background: url("img/bg-1.jpg") no-repeat; background-position:left; background-size:230%;  height:700px;}
+    .banner h3{background: none !important; font-size:18px;}
+    .banner .nepc h3{color: #ec457d;}
+    .banner .pArr{padding: 0 5%}
+    .banner .npnr h3{color: #ffffff;}
+    .banner .yhac h3{color:#ec457d;margin-top: 60px;}
+    .banner .takoe .num{padding:0 4%;}
+    .banner .takoe h3{color:#ffffff;}
+    .banner .takoe .num1 .text,.banner .takoe .num3 .text,.banner .takoe .num5 .text,.banner .takoe .num7 .text{width:86%; }
+    .banner .takoe .num2 .kong,.banner .takoe .num4 .kong,.banner .takoe .num6 .kong{width:90%; float: right; padding:0 20px;}
+    .banner .bawe{background: #7DC1F0;}
+    .banner .bawe .BgImg{background:url("img/5-bg.jpg")no-repeat left; background-size: cover; height:100vh;}
+    .banner .bawe .cton a{background:#EC457D; border: 1px solid #EC457D}
+}
+@media screen and (max-width:767px) {
+    header .mainNav .container{padding-left:10px; padding-right: 10px; padding-bottom:40px;}
+    header .hang{position: fixed; right:30px; top:40px; z-index:10000;}
+    header .hang i{font-size:30px;}
+    header .NPEB{z-index:1;}
+    .mainMenuNav{width:110%;z-index:1000 !important; margin-top:0 !important; height:110% !important;  position: fixed !important; top:0 !important; right:0; background:#fff !important;padding-top: 40px !important;}
+    .mainMenuNav li{width:100% !important; height:40px !important;}
+    .mainMenuNav li a{ display: block; font-size:18px !important; background: #fff !important;color: #22aacc !important; font-weight: normal!important; text-align: left!important; padding-left:90px !important; width:100% !important;height:40px!important; line-height:40px!important; }
+    .banner .CAE2{height:500px !important;}
+    .banner .nepc h3{margin-top:20px;}
+    .banner .npnr figcaption{width:100%; }
+    .banner .npnr h3{margin-top:20px;}
+    .banner .npnr .bg{width:100%; }
+    .banner .yhac h3{margin-top:20px;}
+}
+
+/*footer*/
+footer{background:#54bdff; line-height:78px; position: relative; bottom: 0;}
+footer .container{width: 100%;}
+footer .logo>a:nth-of-type(1){margin-right:80px;}
+footer .logo .faq a{display: inline-block; font-size: 12px; color: #fff; font-weight: bolder; margin-right: 25px;}
+footer .logo .faq a:nth-last-child(1){margin-right: 0;}
+
+
+
+
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--让IE按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗				 宽度=设备宽度	     缩放比例1倍    	  最大缩放比例1倍		禁止用户缩放	-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--屏蔽电话-->
+    <meta content="telephone=no.email=no" name="format-detection"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="pycc.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css"/>
+    <!--先是jquery,后是bootstrap-->
+    <script src="../../js/jquery-1.11.3.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <nav class="navbar mainNav">
+        <div class="container">
+            <div class="navbar-header logo">
+                <a href="../../index.html"><img src="../../img/logo1.png"/></a>
+            </div>
+            <button class="btn btn-link visible-xs pull-right btn-lg dao dropdown-toggle" type="button" data-toggle="dropdown">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul class="nav navbar-nav mainMenuNav pull-right hidden-xs">
+                <li><a href="../../index.html#sec1">Как пройти квест</a></li>
+                <li><a href="../../index.html#sec2">Наши квесты</a></li>
+                <li><a href="../../index.html#sec3">Почему мы?</a></li>
+                <li><a href="../../kohtak/kohtak.html">Контакты</a></li>
+                <li><a href="../../noaapkn/noaapkn.html">Подарки</a></li>
+                <li><a href="../../poma/poma.html">Романтика</a></li>
+            </ul>
+            <ul class="nav dropdown-menu navbar-nav mainMenuNav pull-right animated fadeInLeft">
+                <button class="btn btn-link visible-xs pull-right btn-lg hang dropdown-toggle" type="button" data-toggle="dropdown">
+                    <i class="glyphicon glyphicon-remove"></i>
+                </button>
+                <li><a href="../../index.html#sec1">Как пройти квест</a></li>
+                <li><a href="../../index.html#sec2">Наши квесты</a></li>
+                <li><a href="../../index.html#sec3">Почему мы?</a></li>
+                <li><a href="../../kohtak/kohtak.html">Контакты</a></li>
+                <li><a href="../../noaapkn/noaapkn.html">Подарки</a></li>
+                <li><a href="../../poma/poma.html">Романтика</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--banner-->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Русский музей<span class="pull-right">сложный</span><i class="fa fa-table pull-right"></i></h2>
+                <p>Лишь несколько страниц дневника – вот всё, что осталось от этого загадочного человека. Ходят разные легенды – кто-то говорит, что он был сумасшедшим, кто-то – что он был полностью в своем уме и прожил достаточно интересную и насыщенную жизнь.</p>
+                <p>Пожар уничтожил все следы, и, скорее всего, мы никогда не узнаем, за кем он так гнался, что скрывал, и ради кого так старательно вёл свой загадочный дневник, но ясно одно – следы ведут в Русский Музей …</p>
+                <p>Для участия вам потребуется:
+                    <br><strong>✔</strong> заряженный телефон с выходом в интернет.</p>
+                <p>Билеты в музей приобретаются отдельно:<br>Взрослые – 300р.<br>Студенты, школьники – 150р.</p>
+                <p><strong>Доступен для прохождения:</strong> часы работы музея можно посмотреть на <a href="#">сайте музея</a>. Рекомендуем прийти за три часа до закрытия.</p>
+            </div>
+            <div class="col-sm-4 ueha">
+                <h3>Цена:<span>590</span><i class="fa fa-rub"></i></h3>
+                <span><i>Цена не зависит от количества участников. Берите с собой друзей бесплатно!</i></span>
+                <p><i class="fa fa-history"></i>2-3 часа</p>
+                <p><i class="fa fa-flag-o"></i><span>старт: </span>пл. Искусств, Русский музей</p>
+                <form class="form-group text">
+                    <input type="text" class="form-group" placeholder="Промокод" required="required"/>
+                        <input type="submit" value="Применить" class="btn"/>
+                </form>
+                <form class="form-group email">
+                    <input type="email" class="form-group" placeholder="Ваш e-mail" required="required"/>
+                    <span><i>На этот адрес мы пришлём ссылку на игру!</i></span>
+                    <div id="dan">
+                        <label class="text-center" for="AC">
+                            <span><img src="quickpay.png"/> </span>
+                            <input type="radio" checked id="AC" name="paymentType">
+                        </label>
+                        <label class="text-center" for="MC">
+                            <span><img src="quickpay.png"/> </span>
+                            <input type="radio" id="MC" name="paymentType">
+                        </label>
+                        <label class="text-center" for="PC">
+                            <span><img src="quickpay.png"/> </span>
+                            <input type="radio" id="PC" name="paymentType">
+                        </label>
+                    </div>
+                    <input type="submit" class="btn" value="Купить"/>
+                    <script>
+                        var dan=document.getElementById("dan");
+                        var inputA=dan.getElementsByTagName("input");
+                        var labelArr=dan.getElementsByTagName("label");
+                        for(var i=0; i<inputA.length; i++){
+                            inputA[i].onclick=function(){
+                                for(var j=0; j<labelArr.length; j++){
+                                    labelArr[j].className="";
+                                }
+                                if(this.checked==true){
+                                    var labelObj=this.parentNode;
+                                    labelObj.className="active";
+                                }
+                            }
+                        }
+                    </script>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <a href="#"><img src="../../img/logo.png"/></a>
+            <a href="#"><img src="../../img/vk.png"/></a>
+            <a href="#"><img src="../../img/insta.png"/></a>
+            <div class="faq pull-right">
+                <a href="../../OHAC/ohac.html">О НАС</a>
+                <a href="#">КОНТАКТЫ</a>
+                <a href="../../FAQ/faq.html">FAQ</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

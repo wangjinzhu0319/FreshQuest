@@ -1,0 +1,52 @@
+header{background:url("../img/bg2.jpg")no-repeat center top;background-position: 50% 70%;background-size: cover; }
+header .mainNav{margin-bottom:0;position: relative;}
+header .mainNav .container{width: 100%; padding-left:20px; padding-right: 20px;}
+header .mainNav .logo{margin-left:15px; margin-top:10px;}
+header .dao{position: absolute; right:30px; top:40px; z-index:100}
+header .dao i{font-size:30px;}
+header .mainMenuNav{margin-top:35px; margin-bottom:100px;}
+header .mainMenuNav li{margin-right: 20px; height:28px; }
+header .mainMenuNav li a{display: block; font-weight:bolder;background: rgba(0,0,0,0.2); transition: all .5s; height:28px; text-align:center;line-height: 28px; margin:0; padding: 0;font-size:14px; color:#fff;}
+header .mainMenuNav li:nth-of-type(1){width:140px;}
+header .mainMenuNav li:nth-of-type(2){width:120px;}
+header .mainMenuNav li:nth-of-type(3){width:110px;}
+header .mainMenuNav li:nth-of-type(4){width:90px;}
+header .mainMenuNav li:nth-of-type(5){width:80px;}
+header .mainMenuNav li:nth-of-type(6){width:100px;}
+header .mainMenuNav li a:hover{background:#F9EA48; color: #54BDFF;}
+/*banner*/
+.banner{padding-top: 30px; padding-bottom: 20px;}
+.banner .container-fluid{width:96%; padding-left: 20px; padding-right: 20px;}
+.banner .text h2{font-size: 65px; color: #36b2f5; font-weight: bold; padding-left:100px; background: url("img/faqIcon.png")no-repeat;background-size: contain; }
+.banner .text>p{font-size: 20px; color: #36b2f5; font-weight: bold; margin-bottom: 30px;}
+.banner .text article li{padding-left:40px; background: url("img/liIcon.png")no-repeat left top; background-size:30px; }
+.banner .text article li h3{margin-top: 0; font-size: 20px;color: #36b2f5;font-weight: bold }
+.banner .text article li p{text-align: justify; font-size: 16px; line-height: 24px;}
+.banner .tel{margin-top:60px;}
+.banner .tel h2{margin-top:30px; margin-bottom:20px;}
+.banner .tel h2 a{font-weight: bold; font-size: 30px; text-decoration: none;color: #36b2f5;}
+.banner .tel p{width: 100%; background-color: #36b2f5; color: #fff;font-weight: bold; font-size:16px; text-align: center; padding: 15px 0;}
+.banner .tel input[type="text"],.banner .tel input[type="email"]{width:60%; border:1px solid  #36b2f5;color: #36b2f5;font-style: italic; padding: 6px 8px;margin-top: 15px; }
+.banner .tel textarea{width: 90%;border:1px solid  #36b2f5;color: #36b2f5; margin-top:15px; border-radius: 4px;}
+.banner .tel input[type="submit"]{margin-top: 15px; display: block; font-weight: bold;font-size: 16px; background-color: #36b2f5; border: none;padding: 10px 30px;color: #fff;}
+.banner .tel input[type="submit"]:hover{background:#f9ea48; color:#36b2f5}
+/*footer*/
+footer{background:#54bdff; line-height:78px; position: relative; bottom: 0;}
+footer .container{width: 100%;}
+footer .logo>a:nth-of-type(1){margin-right:80px;}
+footer .logo .faq a{display: inline-block; font-size: 12px; color: #fff; font-weight: bolder; margin-right: 25px;}
+footer .logo .faq a:nth-last-child(1){margin-right: 0;}
+
+
+@media screen and (max-width:991px){
+    .mainMenuNav{margin-bottom: 20px !important; margin-top: 10px!important;}
+}
+@media screen and (max-width:767px) {
+    header .mainNav .container{padding-left:10px; padding-right: 10px; padding-bottom:40px;}
+    header .hang{position: fixed; right:30px; top:40px; z-index:10000;}
+    header .hang i{font-size:30px;}
+    header .NPEB{z-index:1;}
+    .mainMenuNav{width:110%;z-index:1000 !important; height:110% !important;  position: fixed !important; top:0 !important; right:0 !important; background:#fff !important;padding-top: 40px !important; margin-top:0 !important;}
+    .mainMenuNav li{width:100% !important; height:40px !important;}
+    .mainMenuNav li a{ display: block; font-size:18px !important; background: #fff !important;color: #22aacc !important; font-weight: normal!important; text-align: left!important; padding-left:80px !important; width:100% !important;height:40px!important; line-height:40px!important; }
+}
